@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+div{
+    margin: 10px;
+    text-align: center;
+}
+img {
+    width: 25%;
+}
+div#menu {
+width: 80%;
+border: solid black 2px;
+background-color: bisque;
+border-radius: 7px;
+padding: 10px;
+}
+div.paginas{
+    display: inline;
+}
+div#conteudo{
+    width: 95%;
+    border: solid black 2px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
