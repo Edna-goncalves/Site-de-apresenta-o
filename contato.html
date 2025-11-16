@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style> * {
+        font-family: Arial, Helvetica, sans-serif;
+    }</style>
+    
 
 </head>
 <body>
-     <div id="menu">
-        <div class="paginas">Sobre</div>
-        <div class="paginas">Formação</div>
-        <div class="paginas">Contato</div>
-        <div class="paginas">Portifólio</div>
+   <div id="menu">
+        <ul>
+        <li class="paginas"> <a href="/sobre.html" target="_blank">Sobre</a></li>
+        <li class="paginas"><a href="/formacao.html" target="_blank">Formação</a> </li>
+        <li class="paginas"><a href="/contato.html" target="_blank">Contato</a> </li>
+        <li class="paginas"><a href="/portifolio.html" target="_blank">Portifólio</a> </li>
+        </ul>
 
     </div>
+    <form action="cadastro.php" autocomplete="off">
+<p> <label  for="inome">Nome:</label>
+    <input type="text" name="nome" id="inome"></p>
+<p> <label for="iSobrenome">Sobrenome:</label>
+    <input type="text" name="Sobrenome" id="iSobrenome"></p>
+<p><input type="submit" value="Enviar"></p>
+    </form>
+
 </body>
 </html>

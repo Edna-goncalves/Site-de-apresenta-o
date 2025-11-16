@@ -1,26 +1,37 @@
 body {
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 div{
     margin: 10px;
     text-align: center;
+    border: solid black 2px;
+border-radius: 7px;
 }
 img {
     width: 25%;
 }
+
 div#menu {
 width: 80%;
-border: solid black 2px;
 background-color: bisque;
-border-radius: 7px;
 padding: 10px;
-}
-div.paginas{
-    display: inline;
 }
 div#conteudo{
     width: 95%;
-    border: solid black 2px;
     background-color: lightskyblue;
-    border-radius: 5px;
+}
+ul{
+    justify-content: space-between;
+}
+li.paginas{
+display: inline;
+padding: 5px;
+}
+ol{
+    list-style-position: inside;
+    text-align: left;
 }
