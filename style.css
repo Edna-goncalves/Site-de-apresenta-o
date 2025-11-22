@@ -24,6 +24,10 @@ div#conteudo{
     width: 95%;
     background-color: lightskyblue;
 }
+div#container{
+    display: flex;
+    padding: 10px;
+}
 ul{
     justify-content: space-between;
 }
@@ -34,4 +38,7 @@ padding: 5px;
 ol{
     list-style-position: inside;
     text-align: left;
+}
+p{
+    font-size: 1.5rem;
 }
